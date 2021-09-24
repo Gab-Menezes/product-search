@@ -2,3 +2,4 @@
 mkdir build
 cp catalogo_produtos.json ./build
 git submodule init
+git submodule update
