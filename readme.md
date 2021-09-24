@@ -5,18 +5,17 @@ Uses fuzzy string matching algorithm to find the best products based on search.
 
 ## Depends on ##
 1. [nlohmann/json](https://github.com/nlohmann/json) to parse the json file
-2. [tmplt/fuzzywuzzy](https://github.com/tmplt/fuzzywuzzy) to generate the search score
+2. [maxbachmann/rapidfuzz-cpp](https://github.com/maxbachmann/rapidfuzz-cpp) to generate the search score
 
 ## Requirements ##
 [Clang](https://clang.llvm.org/) or [GCC](https://gcc.gnu.org/)
-1. Clang:
-    1. `sudo apt install -y clang clang++`
-2. GCC:
-    1. `sudo apt install -y gcc g++`
+1. Clang: `sudo apt install -y clang clang++`
+2. GCC: `sudo apt install -y gcc g++`
 
 ## Begin ##
 1. Clone this repository
-2. Run `./init.sh`
+2. cd desafio-linx
+2. Run `./init.sh` (only need to be run for the first time)
 
 ## Build ##
 1. Run `./build.sh`
