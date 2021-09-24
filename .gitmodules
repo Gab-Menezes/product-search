@@ -1,0 +1,6 @@
+[submodule "libs/RapidFuzz"]
+	path = libs/RapidFuzz
+	url = https://github.com/maxbachmann/rapidfuzz-cpp.git
+[submodule "libs/json"]
+	path = libs/json
+	url = https://github.com/nlohmann/json.git
