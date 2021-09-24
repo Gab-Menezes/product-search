@@ -14,7 +14,7 @@ Uses fuzzy string matching algorithm to find the best products based on search.
 
 ## Begin ##
 1. Clone this repository
-2. cd product-search
+2. `cd product-search`
 2. Run `./init.sh` (only need to be run for the first time)
 
 ## Build ##
