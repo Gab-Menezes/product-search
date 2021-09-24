@@ -5,7 +5,6 @@
 #include <map>
 #include <algorithm>
 #include <random>
-#include <chrono>
 
 //library includes
 #include "rapidfuzz/fuzz.hpp"
