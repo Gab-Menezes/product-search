@@ -51,7 +51,7 @@ std::map<std::string, std::string> create_map(const std::multimap<double, nlohma
  */
 void print(std::map<std::string, std::string>&& map) {
     int i = 1;
-    for (auto it = map.rbegin(); it != map.rend(); it++) {
+    for (auto it = map.begin(); it != map.end(); it++) {
         std::cout << "#" << i << " - " << it->first << " - " << it->second << "\n";
         i++;
     }
