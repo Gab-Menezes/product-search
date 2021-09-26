@@ -8,10 +8,10 @@ Uses fuzzy string matching algorithm to find the best products based on search.
 2. [maxbachmann/rapidfuzz-cpp](https://github.com/maxbachmann/rapidfuzz-cpp) to generate the search score
 
 ## Requirements ##
-[Clang](https://clang.llvm.org/) or [GCC](https://gcc.gnu.org/)
-1. Clang: `sudo apt install -y clang clang++`
-2. GCC: `sudo apt install -y gcc g++`
-[CMake](https://cmake.org/): `sudo apt install -y cmake`
+1. [Clang](https://clang.llvm.org/) or [GCC](https://gcc.gnu.org/)
+    1. Clang: `sudo apt install -y clang clang++`
+    2. GCC: `sudo apt install -y gcc g++`
+2. [CMake](https://cmake.org/): `sudo apt install -y cmake`
 
 ## Begin ##
 1. Clone this repository
