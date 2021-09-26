@@ -10,6 +10,8 @@
 #include "rapidfuzz/fuzz.hpp"
 #include "nlohmann/json.hpp"
 
+constexpr int map_size = 20;
+
 /**
  * @brief calculate a string proximity based on fuzzy matching
  * @param s1 first string
@@ -64,7 +66,7 @@ void print(std::map<std::string, std::string>&& map) {
  * @return
  */
 void add_multimap(std::multimap<double, nlohmann::json&>& multimap, double score, nlohmann::json& element) {
-    if (multimap.size() < 20) {
+    if (multimap.size() < map_size) {
         multimap.emplace(score, element);
     } else {
         auto it = multimap.begin();

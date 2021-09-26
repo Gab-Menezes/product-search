@@ -11,6 +11,7 @@ Uses fuzzy string matching algorithm to find the best products based on search.
 [Clang](https://clang.llvm.org/) or [GCC](https://gcc.gnu.org/)
 1. Clang: `sudo apt install -y clang clang++`
 2. GCC: `sudo apt install -y gcc g++`
+[CMake](https://cmake.org/): `sudo apt install -y cmake`
 
 ## Begin ##
 1. Clone this repository
